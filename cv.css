@@ -11,10 +11,10 @@ header {
 
 .cv {
   float: left;
-  font-stretch: ultra-condensed;
-  font-size: 100px;
+  font-size: 120px;
   margin-left: 50px;
-  color:#645452;
+  color:white;
+  margin-top: 0px;
 }
 
 .name {
@@ -22,7 +22,7 @@ header {
 }
 
 .name p {
-  color:#645452;
+  color:white;
   font-weight:bolder;
   font-size: 45px;
   text-transform: uppercase;
@@ -33,4 +33,14 @@ header {
 
 .contact {
   float:right;
+  color: white;
+  font-weight: bold;
+  margin-right: 50px;
+  font-size: 20px;
+}
+.name hr {
+  width:1px;
+  margin-right:35%;
+  height:100px;
+
 }
