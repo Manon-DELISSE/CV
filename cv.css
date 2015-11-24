@@ -134,9 +134,11 @@ hr {
 #work {
   margin-top: 500px;
   margin-left: 200px;
+  color:CaptionText;
+  font-weight: bold;
 }
 
-span {
+.titre span {
   color:#7FDD4C;
 }
 .date {
@@ -152,14 +154,20 @@ span {
   font-size:13px;
   width:100px;
 }
+
+.date3 {
+  float: left;
+  margin-right: 50px;
+  font-size:13px;
+  margin-top:60px;
+}
 .stage {
   float: left;
   width: 80%;
-
-  margin-top: 25px;
+  margin-top: 23px;
 }
 .stage1 {
-  margin-top: 70px;
+  margin-top: 68px;
   float: left;
   margin-left: -31px;
 }
@@ -169,14 +177,25 @@ a {
 }
 
 #school {
-  width:100%;
+  width:400px;;
   height: 50px;
   margin-top:270px;
   margin-left: 200px;
+  font-weight: bold;
+  color:CaptionText;
 }
 
 .titre {
   font-weight: bold;
   font-size: 25px;
   color:#999;
+}
+
+.bac {
+  margin-top:47px;
+}
+
+.bac1 {
+  width: 820px;
+  margin-top:58px;
 }
