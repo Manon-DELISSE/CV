@@ -14,6 +14,10 @@ header {
   border-right: none;
 }
 
+#accueil {
+  margin:0;
+}
+
 .cv {
   float: left;
   margin-left: 150px;
@@ -47,20 +51,9 @@ header {
   line-height: 25px;
 }
 
-.email {
-  margin-left:50px;
-}
-
-.tel {
-  margin-left  : 13px;
-}
-
-.adress {
-  margin-left: 33px;
-}
-
-.city {
-  margin-left: 105px;
+.ask {
+  display: inline-block;
+  width:100px;
 }
 
 .contact {
@@ -337,10 +330,6 @@ footer p {
   margin-left: 20px;
   font-weight: bold;
   color:white;
-}
-
-#accueil {
-  margin:0;
 }
 
 .github {
