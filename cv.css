@@ -160,7 +160,7 @@ hr {
   margin-left: 200px;
   color:CaptionText;
   font-weight: bold;
-  height: 350px;
+  height: 300px;
 }
 
 .titre span {
@@ -208,7 +208,7 @@ a {
 #school {
   width:400px;;
   height: 50px;
-  margin-top:270px;
+  margin-top:350px;
   margin-left: 200px;
   font-weight: bold;
   color:CaptionText;
@@ -222,6 +222,7 @@ a {
 
 .bac {
   margin-top:47px;
+  width:500px;
 }
 
 .bac1 {
@@ -232,11 +233,12 @@ a {
 }
 
 #skills {
-  margin-top:250px;
+  margin-top:400px;
   margin-left: 200px;
   color:CaptionText;
   font-weight: bold;
   margin-bottom: 100px;
+  height:300px;
 }
 
 .skill-name {
@@ -282,4 +284,32 @@ a {
   background-color: #7FDD4C;;
   padding-top:1px;
   margin-top: 5px;
+}
+
+.transition {
+  width:600px;
+  margin-top:-130px;
+  margin-right:400px;
+  height: 3px;
+  background: #7FDD4C none repeat;
+  color:white;
+  border-style: none solid;
+}
+
+.transition2 {
+  width:600px;
+  margin-top:-465px;
+  margin-right:400px;
+  height: 3px;
+  background: #7FDD4C none repeat;
+  color:white;
+  border-style: none solid;
+}
+
+footer {
+  width:100%;
+  height: 60px;
+  background-color:#444;
+  margin-top: 300px;
+  border-top: solid #2F2F2F 3px;
 }
