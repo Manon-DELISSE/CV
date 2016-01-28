@@ -1,0 +1,349 @@
+body {
+  margin:0px;
+  background: #eae9e9 url("bg.png") repeat scroll 0% 0%;
+  font-family: "BebasNeueRegular",Arial,sans-serif;
+}
+
+header {
+  width:100%;
+  height:150px;
+  background-color:#7fdd4c;
+  text-shadow: 2px 2px 10px gray;
+  border: 4px solid white;
+  border-left: none;
+  border-right: none;
+}
+
+#accueil {
+  margin:0;
+}
+
+.cv {
+  float: left;
+  margin-left: 150px;
+  color:white;
+  margin-top:-18px;
+}
+
+.c {
+  font-size: 200px;
+  line-height: 150px;
+}
+
+.v {
+  font-size:60px;
+  position: absolute;
+  top:41px;
+  left:190px;
+}
+.name {
+  float:left;
+}
+
+.name p {
+  font-family: "BebasNeueRegular",Arial,sans-serif;
+  color:white;
+  font-weight:bolder;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-top:25px;
+  line-height: 25px;
+}
+
+.ask {
+  display: inline-block;
+  width:100px;
+}
+
+.contact {
+  float:right;
+  color: white;
+  font-weight: bold;
+  margin-right: 50px;
+  font-size: 17px;
+  margin-top:-5px;
+}
+
+.contact p {
+  text-align: justify;
+}
+
+hr {
+  width:1px;
+  margin-right:70px;
+  height:90%;
+  color:white;
+}
+
+.cercles {
+  margin-top: -390px;
+  margin-left: 100px;
+}
+
+.cercles p {
+  margin-top:80px;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+  font-size: 19px;
+}
+
+.photo {
+  width:200px;
+  height:200px;
+  border-radius:100%;
+  border: 4px solid white;
+  float:left;
+  position: absolute;
+  top:220px;
+  left:10%;
+}
+
+.photo:hover{
+  border: 4px solid #7fdd4c;
+
+}
+
+.travail {
+  width:200px;
+  height:200px;
+  border-radius:100%;
+  border: 4px solid white;
+  background-color: #f09d9d;
+  float:left;
+  position: absolute;
+  top:220px;
+  left:30%;
+}
+
+.travail:hover {
+  border: 4px solid #f87272;
+}
+
+.scolaire {
+  width:200px;
+  height:200px;
+  border-radius:100%;
+  border: 4px solid white;
+  background-color: #79cdcd;
+  float:left;
+  position: absolute;
+  top:220px;
+  left:50%;
+}
+
+.scolaire:hover {
+  border:4px solid #388E8E;
+}
+
+.competence {
+  width:200px;
+  height:200px;
+  border-radius:100%;
+  border: 4px solid white;
+  float:left;
+  background-color: #FFB861;
+  position: absolute;
+  top:220px;
+  left:70%;
+}
+
+.competence:hover {
+  border:4px solid #ff9e61;
+}
+
+.photo img {
+  width: 200px;
+  height:200px;
+  border-radius: 100px ;
+}
+
+#work {
+  margin-top: 750px;
+  margin-left: 200px;
+  color:CaptionText;
+  font-weight: bold;
+  height: 300px;
+}
+
+.titre span {
+  color:#7fdd4c;
+}
+
+.date {
+  float: left;
+  margin-right: 50px;
+  font-size:13px;
+  margin-top:25px;
+}
+
+.date2 {
+  float: left;
+  margin-top: 70px;
+  margin-right: 50px;
+  font-size:13px;
+  width:100px;
+}
+
+.date3 {
+  float: left;
+  margin-right: 50px;
+  font-size:13px;
+  margin-top:60px;
+}
+
+.stage {
+  float: left;
+  width: 80%;
+  margin-top: 23px;
+}
+
+.stage1 {
+  margin-top: 68px;
+  float: left;
+  margin-left: -31px;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+#school {
+  width:400px;;
+  height: 50px;
+  margin-top:30px;
+  margin-left: 200px;
+  font-weight: bold;
+  color:CaptionText;
+}
+
+.titre {
+  font-weight: bold;
+  font-size: 25px;
+  color:#999;
+}
+
+.bac {
+  margin-top:47px;
+  width:500px;
+}
+
+.bac1 {
+  width: 820px;
+  margin-top:58px;
+  margin-left: 110px;
+
+}
+
+#skills {
+  margin-top:400px;
+  margin-left: 200px;
+  color:CaptionText;
+  font-weight: bold;
+  margin-bottom: 100px;
+  height:300px;
+}
+
+.skill-name {
+  margin-top:30px;
+  float: left;
+}
+
+.progress {
+  float: left;
+  width:475px;
+  height: 20px;
+  background-color: #ccc;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.progress2 {
+  float: left;
+  width:50%;
+  height: 50%;
+  background-color: #7fdd4c;
+  padding-top:1px;
+  margin-top: 5px;
+}
+
+.skill-name1 {
+  margin-top:120px;
+}
+
+.progress3 {
+  float: left;
+  width:475px;
+  height: 20px;
+  background-color: #ccc;
+  margin-left: 95px;
+  margin-top: -19px;
+}
+
+.pourcent {
+  color: #ccc;
+}
+
+.pourcent:hover {
+color: black;
+
+}
+
+.progress4 {
+  float: left;
+  width:50%;
+  height: 50%;
+  background-color: #7fdd4c;
+  padding-top:1px;
+  margin-top: 5px;
+}
+
+.transition {
+  width:600px;
+  margin-top:-130px;
+  margin-right:400px;
+  height: 3px;
+  background: #7FDD4C none repeat;
+  color:white;
+  border-style: none solid;
+}
+
+.transition2 {
+  width:600px;
+  margin-top:-465px;
+  margin-right:400px;
+  height: 3px;
+  background: #7FDD4C none repeat;
+  color:white;
+  border-style: none solid;
+}
+
+footer {
+  width:100%;
+  height: 55px;
+  background-color:#444;
+  margin-top: 300px;
+  border-top: solid #2f2f2f 3px;
+  border-bottom :solid #2f2f2f 4px;
+}
+
+footer img {
+  float: right;
+  margin-right:15px;
+  margin-top:8px;
+}
+
+footer p {
+  float: left;
+  margin-left: 20px;
+  font-weight: bold;
+  color:white;
+}
+
+.github {
+  width:19px;
+  height: 19px;
+  margin-top:10px;
+}
